@@ -5,8 +5,8 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 contract UniswapSingleSwap is Ownable {
     ISwapRouter public routerAddress;
 
-    address public constant DAI = 0x6B175474E89094C44Da98b954EedeAC495271d0F;
-    address public constant WETH9 = 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2;
+    address public constant DAI = 0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063;
+    address public constant WETH9 = 0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619;
     uint24 public constant poolFee = 3000;
 
     constructor(ISwapRouter routerAddress_){
